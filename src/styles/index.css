@@ -1,10 +1,38 @@
+
 .topTrafficLight {
     width: 10px;
-    height: 50px;
+    height: 30px;
     background-color: black;
+    margin: auto;
+   
+    
+
 }
 .trafficLight {
-    width: 60px;
-    height: 400px;
+    width: 70px;
     background-color: black;
+    border-radius: 10px;
+}
+.redLight {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 10px;
+}
+.yellowLight {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.greenLight {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    margin-bottom: 10px;
+}
+.glow {
+    box-shadow:0 0 50px 20px rgb(231, 229, 218);
 }
